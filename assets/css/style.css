@@ -7,7 +7,7 @@ body {
 }
 
 * {
-  box-sizing: border-box;e
+  box-sizing: border-box;
 }
 
 /* general */
@@ -77,7 +77,7 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+/* nav {
   float: left;
   margin-top: 25px;
 }
@@ -94,7 +94,7 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
-}
+} */
 
 /* footer */
 
