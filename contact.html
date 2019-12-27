@@ -3,19 +3,32 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Liana Bette</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Contact | Liana Bette</title>
 </head>
 
 <body>
 
-  <header id="masthead">
+  <header id="navBar">
     <div class="container">
-      <a href="index.html" id="logo">Liana Bette</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="nav">
+          <a class="navbar-brand" id="logo">Liana Bette</a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">About</a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </nav>
       </nav>
     </div>
   </header>
@@ -25,50 +38,42 @@
       <h1>Contact</h1>
 
       <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-          </div>
-          <div class="form-group">
-              <label for="exampleFormControlInput1">Email Address</label>
-              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
-            </div>
-          
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Submit</a>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email Address</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+        </div>
 
-        </form>
-
-      <!-- <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form> -->
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Submit</a>
+      </form>
 
     </section>
 
   </div>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
-      Copyright &copy; 
+      &copy; Copyright Liana Bette
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
